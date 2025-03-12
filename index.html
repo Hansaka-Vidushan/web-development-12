@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="show"></div>
+
+
+    <script type="text/javascript">
+
+        // For Loop
+        var Data = ["Hansaka", "Vidushan", "Dilshan", "Kasun"];
+        var storedata = "";
+
+        for (var i = 0; i < Data.length; i++) {
+            storedata = storedata + "<p>" + Data[i] + "</p>"
+        }
+        document.getElementById("show").innerHTML = storedata;
+
+
+
+        // While Loop
+
+        var e = 0;
+        var storeData = "";
+
+        while (e < Data.length) {
+
+            storeData = storeData + "<p>" + Data[e] + "</p>";
+            e++;
+
+
+        }
+
+        document.getElementById("show").innerHTML = storeData;
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
